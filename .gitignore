@@ -1,0 +1,11 @@
+# Ignore Everything
+*
+
+# But not .cpp
+!*.cpp
+# Or 
+!*.jpg
+!*.png
+!*/
+!.gitignore
+!README.md
