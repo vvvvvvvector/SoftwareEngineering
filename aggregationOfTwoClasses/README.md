@@ -1,0 +1,1 @@
+![aggregationExample](../images/Aggregation.jpg)

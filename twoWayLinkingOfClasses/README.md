@@ -1,0 +1,1 @@
+![twoWayLinkingExample](../images/twoWayLinkingOfClasses.jpg)
