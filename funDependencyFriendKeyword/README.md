@@ -1,0 +1,1 @@
+![diagramExample](../images/classDiagramFunDependencyFriendKeyword.jpg)
