@@ -11,6 +11,10 @@ private:
     Database() {}
 
 public:
+    Database(Database &other) = delete; // singletons should not be cloneable
+
+    void operator=(const Database &) = delete; // singletons should not be assignable.
+
     static Database *getDatabase();
 
     // ------- business logic -------
