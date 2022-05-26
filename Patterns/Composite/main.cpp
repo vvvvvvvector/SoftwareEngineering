@@ -2,6 +2,7 @@
 #include <list>
 #include <string>
 
+// for instance webpage component 🤔
 class Component
 {
 public:
