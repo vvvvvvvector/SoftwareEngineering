@@ -6,7 +6,7 @@
 class Component
 {
 public:
-    ~Component() {}
+    virtual ~Component() {}
     virtual std::string GetHTML() = 0;
 };
 
@@ -17,8 +17,6 @@ private:
     std::string text;
 
 public:
-    virtual ~ListItem() {}
-
     ListItem(std::string text)
     {
         this->text = text;
@@ -38,8 +36,6 @@ private:
     std::list<Component *> components;
 
 public:
-    virtual ~UnorderedList() {}
-
     UnorderedList(std::string title, std::list<Component *> components)
     {
         this->title = title;

@@ -49,7 +49,7 @@ public:
         }
     }
 
-    void measureData()
+    void MeasureData()
     {
         this->data = rand() & 101;
         Notify();
@@ -146,11 +146,11 @@ int main()
     PhoneDisplay *phone_display = new PhoneDisplay(*station);
     ArduinoLCD *arduino_lcd = new ArduinoLCD(*station);
 
-    station->measureData();
+    station->MeasureData();
 
     station->Unsubscribe(phone_display);
 
-    station->measureData();
+    station->MeasureData();
 
     delete station;
     delete pc_display;
