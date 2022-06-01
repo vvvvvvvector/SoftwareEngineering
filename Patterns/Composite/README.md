@@ -1,0 +1,1 @@
+![composite_uml.jpg](composite.jpg)

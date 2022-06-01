@@ -1,0 +1,1 @@
+![strategy_uml.jpg](strategy.jpg)

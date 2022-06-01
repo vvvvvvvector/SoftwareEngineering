@@ -1,0 +1,1 @@
+![singleton_uml.jpg](singleton.jpg)
