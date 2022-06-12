@@ -22,17 +22,12 @@ public:
 class ClientAdapter : ISender
 {
 private:
-    ClientSender *client;
+    ClientSender client;
 
 public:
-    ClientAdapter()
-    {
-        this->client = new ClientSender();
-    }
-
     void Send(const std::string &message) override
     {
-        client->SendMessageFromClient(message);
+        client.SendMessageFromClient(message);
     }
 };
 
@@ -50,17 +45,12 @@ public:
 class ServerAdapter : ISender
 {
 private:
-    ServerSender *server;
+    ServerSender server;
 
 public:
-    ServerAdapter()
-    {
-        this->server = new ServerSender();
-    }
-
     void Send(const std::string &message) override
     {
-        server->SendMessageFromServer(message);
+        server.SendMessageFromServer(message);
     }
 };
 
