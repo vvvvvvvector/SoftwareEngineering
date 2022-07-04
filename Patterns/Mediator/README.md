@@ -6,3 +6,5 @@
 3. zmniejsza powiazanie miedzy klasami
 4. przenosi miedzyklasowe polaczenia w jedna klase(mediator) 
 5. pozwala enkasulowac logike i ponownie korzystac z napisanych komponentow
+
+![mediator_uml](./Mediator.jpg)
